@@ -55,7 +55,6 @@ func SumAllTails(numbersToSum ...[]int) []int {
 		if len(nums) < 1 {
 			sums = append(sums, 0)
 		} else {
-
 			// we are saying "take from 1 to the end" with numbers[1:]
 			tail := nums[1:]
 			sums = append(sums, Sum(tail))
